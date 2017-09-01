@@ -1,0 +1,152 @@
+# depslib dependency file v1.0
+1504269997 source:c:\users\lindtlar\documents\github\asopc\test\alltests.cpp
+	"UnitTest++.h"
+	"global.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\unittest++.h
+	"UnitTestPP.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\unittestpp.h
+	"Config.h"
+	"TestMacros.h"
+	"CheckMacros.h"
+	"RequireMacros.h"
+	"TestRunner.h"
+	"TimeConstraint.h"
+	"ReportAssert.h"
+
+1504173729 c:\users\lindtlar\documents\github\unittest\src\config.h
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\testmacros.h
+	"Config.h"
+	"TestSuite.h"
+	"ExceptionMacros.h"
+	"ExecuteTest.h"
+	"AssertException.h"
+	"TestDetails.h"
+	"MemoryOutStream.h"
+	"Posix/SignalTranslator.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\testsuite.h
+
+1504173729 c:\users\lindtlar\documents\github\unittest\src\exceptionmacros.h
+	"Config.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\executetest.h
+	"Config.h"
+	"ExceptionMacros.h"
+	"TestDetails.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+	"AssertException.h"
+	"RequiredCheckException.h"
+	"CurrentTest.h"
+	"ReportAssertImpl.h"
+	"Posix/SignalTranslator.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\testdetails.h
+	"HelperMacros.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\helpermacros.h
+	"Config.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\testresults.h
+	"HelperMacros.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\memoryoutstream.h
+	"Config.h"
+	"HelperMacros.h"
+	<sstream>
+	<cstddef>
+
+1504173729 c:\users\lindtlar\documents\github\unittest\src\assertexception.h
+	"Config.h"
+	"HelperMacros.h"
+	<exception>
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\requiredcheckexception.h
+	"Config.h"
+	"HelperMacros.h"
+	<exception>
+
+1504173729 c:\users\lindtlar\documents\github\unittest\src\currenttest.h
+	"HelperMacros.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\reportassertimpl.h
+	"Config.h"
+	"HelperMacros.h"
+	<csetjmp>
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\posix\signaltranslator.h
+	<setjmp.h>
+	<signal.h>
+
+1504173729 c:\users\lindtlar\documents\github\unittest\src\checkmacros.h
+	"HelperMacros.h"
+	"ExceptionMacros.h"
+	"Checks.h"
+	"AssertException.h"
+	"RequiredCheckException.h"
+	"MemoryOutStream.h"
+	"TestDetails.h"
+	"CurrentTest.h"
+	"ReportAssertImpl.h"
+
+1504173729 c:\users\lindtlar\documents\github\unittest\src\checks.h
+	"Config.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\requiremacros.h
+	"RequiredCheckTestReporter.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\requiredchecktestreporter.h
+	"HelperMacros.h"
+	"ThrowingTestReporter.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\throwingtestreporter.h
+	"TestReporter.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\testreporter.h
+	"HelperMacros.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\testrunner.h
+	"Test.h"
+	"TestList.h"
+	"CurrentTest.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\test.h
+	"TestDetails.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\testlist.h
+	"HelperMacros.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\timeconstraint.h
+	"TimeHelpers.h"
+	"HelperMacros.h"
+	"TestDetails.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\timehelpers.h
+	"Config.h"
+	"Posix/TimeHelpers.h"
+	"Win32/TimeHelpers.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\posix\timehelpers.h
+	<sys/time.h>
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\win32\timehelpers.h
+	"../Config.h"
+	"../HelperMacros.h"
+
+1504173730 c:\users\lindtlar\documents\github\unittest\src\reportassert.h
+	"HelperMacros.h"
+
+1504266190 source:c:\users\lindtlar\documents\github\asopc\test\runalltests.cpp
+	"UnitTest++.h"
+
+1504171243 c:\users\lindtlar\documents\github\asopc\src\\init.h
+
+1504171188 c:\users\lindtlar\documents\github\asopc\src\\global.h
+	<stdio.h>
+	<ctype.h>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="A Simple One Pass Compiler Unit Tests" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/asopc-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../UnitTest/src" />
+					<Add directory="src/" />
+				</Compiler>
+				<Linker>
+					<Add library="../UnitTest/bin/Debug/libUnitTest++.a" />
+					<Add library="obj/Debug/src/emitter.o" />
+					<Add library="obj/Debug/src/error.o" />
+					<Add library="obj/Debug/src/init.o" />
+					<Add library="obj/Debug/src/lexer.o" />
+					<Add library="obj/Debug/src/parser.o" />
+					<Add library="obj/Debug/src/symbol.o" />
+					<Add directory="../UnitTest/bin/Debug" />
+					<Add directory="obj/Debug/src" />
+					<Add directory="obj/Debug/test" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/asopc-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../UnitTest/src" />
+					<Add directory="src/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../UnitTest/bin/Release/libUnitTest++.a" />
+					<Add library="obj/Release/src/emitter.o" />
+					<Add library="obj/Release/src/error.o" />
+					<Add library="obj/Release/src/init.o" />
+					<Add library="obj/Release/src/lexer.o" />
+					<Add library="obj/Release/src/parser.o" />
+					<Add library="obj/Release/src/symbol.o" />
+					<Add directory="../UnitTest/bin/Release" />
+					<Add directory="obj/Release/src" />
+					<Add directory="obj/Release/test" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="$exe_output" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="test/AllTests.cpp" />
+		<Unit filename="test/RunAllTests.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
