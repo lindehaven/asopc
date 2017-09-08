@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="A Simple One Pass Compiler Unit Tests" />
+		<Option title="A Simple One Pass Compiler - Unit Tests" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -58,6 +58,9 @@
 				</ExtraCommands>
 			</Target>
 		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;Release;" />
+		</VirtualTargets>
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />

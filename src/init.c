@@ -9,9 +9,17 @@
 #include "symbol.h"
 
 struct entry keywords[] = {
-    {"div",  DIV},
-    {"mod",  MOD},
-    {0,      0}
+    {"div",     DIV},
+    {"DIV",     DIV},
+    {"mod",     MOD},
+    {"MOD",     MOD},
+    {"and",     AND},
+    {"AND",     AND},
+    {"or",      OR},
+    {"OR",      OR},
+    {"xor",     XOR},
+    {"XOR",     XOR},
+    {0,         0}
 };
 
 void init(void) {

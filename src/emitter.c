@@ -9,7 +9,10 @@
 
 void emit(const int t, const int tval) {
     switch(t) {
-        case '+': case '-': case '*': case '/':
+        case '+':
+        case '-':
+        case '*':
+        case '/':
             printf("%c\n", t);
             break;
         case DIV:
@@ -17,6 +20,15 @@ void emit(const int t, const int tval) {
             break;
         case MOD:
             printf("MOD\n");
+            break;
+        case AND:
+            printf("AND\n");
+            break;
+        case OR:
+            printf("OR\n");
+            break;
+        case XOR:
+            printf("XOR\n");
             break;
         case NUM:
             printf("NUM\n");

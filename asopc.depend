@@ -1,1 +1,50 @@
 # depslib dependency file v1.0
+1504171238 source:c:\users\lindtlar\documents\github\asopc\src\error.c
+	<stdio.h>
+	<stdlib.h>
+	"lexer.h"
+
+1504171193 c:\users\lindtlar\documents\github\asopc\src\lexer.h
+
+1504171200 source:c:\users\lindtlar\documents\github\asopc\src\lexer.c
+	"global.h"
+	"error.h"
+	"symbol.h"
+
+1504276124 c:\users\lindtlar\documents\github\asopc\src\global.h
+	<stdio.h>
+	<ctype.h>
+
+1504171232 c:\users\lindtlar\documents\github\asopc\src\error.h
+
+1504171254 c:\users\lindtlar\documents\github\asopc\src\symbol.h
+
+1504171166 source:c:\users\lindtlar\documents\github\asopc\src\main.c
+	<stdlib.h>
+	"init.h"
+	"parser.h"
+
+1504171243 c:\users\lindtlar\documents\github\asopc\src\init.h
+
+1504171205 c:\users\lindtlar\documents\github\asopc\src\parser.h
+
+1504171259 source:c:\users\lindtlar\documents\github\asopc\src\symbol.c
+	<string.h>
+	"global.h"
+	"error.h"
+
+1504276186 source:c:\users\lindtlar\documents\github\asopc\src\emitter.c
+	"global.h"
+
+1504276282 source:c:\users\lindtlar\documents\github\asopc\src\parser.c
+	"global.h"
+	"lexer.h"
+	"emitter.h"
+	"error.h"
+
+1504171218 c:\users\lindtlar\documents\github\asopc\src\emitter.h
+
+1504276110 source:c:\users\lindtlar\documents\github\asopc\src\init.c
+	"global.h"
+	"symbol.h"
+

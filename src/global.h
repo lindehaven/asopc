@@ -18,8 +18,12 @@
 #define NUM     256
 #define DIV     257
 #define MOD     258
-#define ID      259
-#define DONE    260
+#define AND     259
+#define OR      260
+#define XOR     261
+
+#define ID      998
+#define DONE    999
 
 struct entry {
     char *lexptr;

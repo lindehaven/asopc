@@ -30,7 +30,8 @@ static void expr(void) {
     term();
     while (1) {
         switch (lookahead) {
-            case '+': case '-':
+            case '+':
+            case '-':
                 t = lookahead;
                 match(lookahead);
                 term();
@@ -47,7 +48,13 @@ static void term(void) {
     factor();
     while(1) {
         switch (lookahead) {
-            case '*': case '/': case DIV: case MOD:
+            case '*':
+            case '/':
+            case DIV:
+            case MOD:
+            case AND:
+            case OR:
+            case XOR:
                 t = lookahead;
                 match(lookahead);
                 factor();

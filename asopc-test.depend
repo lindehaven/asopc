@@ -1,7 +1,6 @@
 # depslib dependency file v1.0
-1504269997 source:c:\users\lindtlar\documents\github\asopc\test\alltests.cpp
+1504270069 source:c:\users\lindtlar\documents\github\asopc\test\alltests.cpp
 	"UnitTest++.h"
-	"global.h"
 
 1504173730 c:\users\lindtlar\documents\github\unittest\src\unittest++.h
 	"UnitTestPP.h"
@@ -141,7 +140,7 @@
 1504173730 c:\users\lindtlar\documents\github\unittest\src\reportassert.h
 	"HelperMacros.h"
 
-1504266190 source:c:\users\lindtlar\documents\github\asopc\test\runalltests.cpp
+1504270045 source:c:\users\lindtlar\documents\github\asopc\test\runalltests.cpp
 	"UnitTest++.h"
 
 1504171243 c:\users\lindtlar\documents\github\asopc\src\\init.h
