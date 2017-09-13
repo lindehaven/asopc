@@ -65,8 +65,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<ExtraCommands>
+			<Add after='cmd /c &quot;cd test &amp; RunAllTests.bat&quot;' />
+			<Mode after="always" />
+		</ExtraCommands>
 		<Unit filename="test/AllTests.cpp" />
+		<Unit filename="test/RunAllTests.bat" />
 		<Unit filename="test/RunAllTests.cpp" />
+		<Unit filename="test/test_1_correct.txt" />
+		<Unit filename="test/test_2_incorrect.txt" />
+		<Unit filename="test/test_3_incorrect.txt" />
+		<Unit filename="test/test_4_incorrect.txt" />
+		<Unit filename="test/test_5_incorrect.txt" />
 		<Extensions>
 			<code_completion />
 			<envvars />
